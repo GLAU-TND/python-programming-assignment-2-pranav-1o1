@@ -1,0 +1,11 @@
+p = bin(int(input()))
+k = 1
+c = 0
+for i in range(len(p)-3):
+    if p[i+2]==p[i+3]:
+        k+=1
+    else:
+        c = max(c,k)
+        k = 1
+        continue
+print(c)

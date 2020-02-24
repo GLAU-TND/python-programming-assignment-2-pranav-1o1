@@ -1,0 +1,13 @@
+p = eval(input())
+k = [min(p)]
+c = minnjn(p)[-1]
+p.remove(min(p))
+for i in p:
+	for j in p:
+		if c==j[0] and j[-1]!=k0][0]:
+			k.append(j)
+			c = j[-1]
+			p.remove(j)
+			break
+k = k+t
+print(k)
