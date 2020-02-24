@@ -1,6 +1,6 @@
 p = eval(input())
 k = [min(p)]
-c = min( p)[-1]
+c = min(p)[-1]
 p.remove(min(p))
 for i in p:
 	for j in p:
@@ -9,5 +9,5 @@ for i in p:
 			c = j[-1]
 			p.remove(j)
 			break
-k = k+t
+k = k+p
 print(k)
