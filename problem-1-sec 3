@@ -1,6 +1,6 @@
 p = eval(input())
 k = [min(p)]
-c = minnjn(p)[-1]
+c = min( p)[-1]
 p.remove(min(p))
 for i in p:
 	for j in p:
